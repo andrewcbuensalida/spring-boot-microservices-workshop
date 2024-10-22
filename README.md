@@ -1,5 +1,5 @@
 https://www.youtube.com/watch?v=e09P-CkCvvs
-
+https://lucid.app/lucidchart/b36fdc78-4339-4336-a5ea-546455e7d2a2/edit?viewport_loc=-10%2C-10%2C1707%2C871%2C0_0&invitationId=inv_ae084f34-f700-4e19-b0a0-0a1ee9fe2289
 ##
 When running, was getting this error:
 `Error: Could not find or load main class org.apache.maven.wrapper.MavenWrapperMain`

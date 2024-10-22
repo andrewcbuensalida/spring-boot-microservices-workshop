@@ -1,4 +1,4 @@
-package io.javabrains.ratingsdataservice.resources;
+package io.javabrains.ratingsdataservice.controller;
 
 import io.javabrains.ratingsdataservice.model.Rating;
 import io.javabrains.ratingsdataservice.model.UserRating;

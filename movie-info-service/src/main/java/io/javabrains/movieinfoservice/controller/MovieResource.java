@@ -1,4 +1,4 @@
-package io.javabrains.movieinfoservice.resources;
+package io.javabrains.movieinfoservice.controller;
 
 import io.javabrains.movieinfoservice.models.Movie;
 import io.javabrains.movieinfoservice.models.MovieSummary;

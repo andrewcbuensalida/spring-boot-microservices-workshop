@@ -20,10 +20,64 @@
 	</properties>
 
 	<dependencies>
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-    </dependency>
+	<dependency>
+	  <groupId>org.springframework.cloud</groupId>
+	  <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+	  <exclusions>
+      <exclusion>
+        <groupId>com.google.guava</groupId>
+        <artifactId>guava</artifactId>
+      </exclusion>
+      <exclusion>
+        <groupId>org.glassfish.hk2</groupId>
+        <artifactId>hk2-api</artifactId>
+      </exclusion>
+      <exclusion>
+        <groupId>org.glassfish.hk2.external</groupId>
+        <artifactId>aopalliance-repackaged</artifactId>
+      </exclusion>
+      <exclusion>
+        <groupId>org.glassfish.hk2</groupId>
+        <artifactId>hk2-utils</artifactId>
+      </exclusion>
+      <exclusion>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpclient</artifactId>
+      </exclusion>
+      <exclusion>
+        <groupId>commons-logging</groupId>
+        <artifactId>commons-logging</artifactId>
+      </exclusion>
+      <exclusion>
+        <groupId>com.fasterxml.woodstox</groupId>
+        <artifactId>woodstox-core</artifactId>
+      </exclusion>
+      <exclusion>
+        <groupId>org.codehaus.woodstox</groupId>
+        <artifactId>stax2-api</artifactId>
+      </exclusion>
+	  </exclusions>
+	</dependency>
+	<dependency>
+	  <groupId>com.google.guava</groupId>
+	  <artifactId>guava</artifactId>
+	  <version>33.0.0-jre</version>
+	</dependency>
+	<dependency>
+	  <groupId>org.glassfish.hk2</groupId>
+	  <artifactId>hk2-api</artifactId>
+	  <version>3.1.1</version>
+	</dependency>
+	<dependency>
+	  <groupId>org.apache.httpcomponents</groupId>
+	  <artifactId>httpclient</artifactId>
+	  <version>4.5.14</version>
+	</dependency>
+	<dependency>
+	  <groupId>com.fasterxml.woodstox</groupId>
+	  <artifactId>woodstox-core</artifactId>
+	  <version>6.5.0</version>
+	</dependency>
 
 
 		<dependency>
