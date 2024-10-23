@@ -14,4 +14,6 @@ Now when doing Explorer > Maven > movie-info-service (for example) > Plugins > s
 
 Upgraded spring-cloud.version to 2023 and has a warning:
 `Dependency conflict in spring-cloud-starter-netflix-eureka-server: com.google.guava:guava:14.0.1 conflict with 33.0.0-jre`
+
 ##
+Eureka clients automatically already know to connect to the eureka server if the server is on the default port 8761.
