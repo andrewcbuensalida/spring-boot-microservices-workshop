@@ -18,3 +18,7 @@ So I added more dependencies
 
 ##
 Eureka clients automatically already know to connect to the eureka server if the server is on the default port 8761.
+
+## TODO
+- circuit breaker with hystrix or resilience4j. https://www.youtube.com/watch?v=kbGo61EjrJI&list=PLqq-6Pq4lTTbXZY_elyGv7IkKrfkSrX5e&index=23
+- 
